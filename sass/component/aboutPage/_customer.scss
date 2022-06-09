@@ -1,0 +1,51 @@
+#customer{
+   @extend .mt-10;
+}
+
+.customer{
+   @extend .flex;
+}
+.customer__item{
+   @extend .padding-margin-0;
+img{
+   width: 100%;
+   border-radius: $space-2x;
+}
+}
+
+.customer__content{
+   padding-left: 100px;
+   @extend .padding-margin-0;
+   @extend .flex;
+   @extend .flex-direction-colum;
+   @extend .justify-content-center;
+  h3{
+   font-size: 1.25rem;
+   margin-bottom: 1.25rem;
+   color: #666;
+  } 
+  h1{
+   margin-bottom: 1.25rem;
+   color: #222;
+   width: 400px;
+   font-size: 26px;
+   font-weight: 800;
+  }
+  p{
+   width: 440px;
+   font-size: 14px;
+   color: #999 !important;
+   line-height: 1.5rem;
+  }
+  a{
+   color: #333;
+   display: inline-block;
+   margin-top: 3rem;
+   font-weight: 600;
+   font-size: 0.85rem;
+   i{
+      font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+   }
+  }
+}
