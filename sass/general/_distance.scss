@@ -1,0 +1,59 @@
+@for $i from 1 through 20 {
+   .mt-#{$i} {
+     margin-top: calc(#{$space-x} * #{$i}) !important; 
+   }
+}
+@for $i from 1 through 10 {
+   .mr-#{$i} {
+     margin-right: calc(#{$space-x} * #{$i}) !important; 
+   }
+}
+@for $i from 1 through 10 {
+  .ml-#{$i} {
+    margin-left: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+@for $i from 1 through 20 {
+  .mb-#{$i} {
+    margin-bottom: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+@for $i from 1 through 10 {
+  .pd-#{$i} {
+    padding: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+@for $i from 1 through 10 {
+  .pt-#{$i} {
+    padding-top: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+@for $i from 1 through 10 {
+  .pl-#{$i} {
+    padding-left: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+@for $i from 1 through 10 {
+  .pr-#{$i} {
+    padding-right: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+@for $i from 1 through 10 {
+  .pb-#{$i} {
+    padding-bottom: calc(#{$space-x} * #{$i}) !important; 
+  }
+}
+
+.margin-top-100{
+  margin-top: $space-x*20 !important;
+}
+
+.pt-16{
+padding-top: $space-x*16;
+}
+
+.padding-margin-0{
+  padding: 0;
+  margin: 0;
+}
+

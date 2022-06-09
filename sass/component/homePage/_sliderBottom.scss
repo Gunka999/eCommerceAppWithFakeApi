@@ -1,0 +1,45 @@
+.slider_bottom{
+   @extend .flex;
+   @extend .mt-2;
+}
+
+.slider_bottom_item{
+   @extend .padding-margin-0;
+   position: relative;
+   img{
+      width: 100%;
+   }
+}
+.right_padding{
+padding-right: $space-x;
+}
+.left_padding{
+padding-left: $space-x;
+}
+
+.slider_bottim_content{
+position: absolute;
+top:50%;
+right: 15%;
+h2{
+   color:$white-color;
+   @extend .font-size-3x;
+   letter-spacing: 2px;
+}
+h1{
+   @extend .mt-1;
+   color:$white-color;
+   @extend .font-weight-700;
+   @extend .font-size-5x;
+   letter-spacing: 2px;
+}
+a{
+   display: block;
+   @extend .mt-3;
+   color:$white-color;
+   @extend .font-weight-700;
+   i{
+      @extend .ml-2;
+   }
+}
+}

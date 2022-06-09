@@ -1,0 +1,57 @@
+$main-color: #223645;
+$primary-color: red;
+$electric-purple-color:#AD1FEA;
+$ultramarine-blue-color:#4661E6;
+$rhino-blue-color:#373F68;
+$white-color:#FFFFFF;
+$magnolia-color:#F2F4FF;
+$ghost-white-color:#F7F8FD;
+$rhino-color:#3A4374;
+$waikawa-grey-color:#647196;
+$blush-color:#F49F85;
+$crystal-blue:#62BCFA;
+$Tropical-Blue-color:#CFD7FF;
+$catskill-white:#F2F4FE;
+$moonraker-color:#CDD2EE;
+$test:rgb(55, 13, 13);
+$black-color: black;
+
+
+.background-rhino-blue-color{
+   background:$rhino-blue-color;
+}
+
+.background-electric-purple-color{
+   background:$electric-purple-color;
+}
+.background-main-color{
+   background:$main-color;
+}
+.background-white-color{
+   background:$white-color;
+}
+
+.color-white{
+   color: $white-color;
+}
+.color-moonraker{
+   color: $moonraker-color;
+}
+.color-waikawa-grey{
+   color:$waikawa-grey-color;
+}
+.color-rhino{
+   color:$rhino-color;
+}
+.color-blush{
+   color:$blush-color;
+}
+.color-electric-purple{
+   color: $electric-purple-color;
+}
+.color-crystal-blue{
+   color: $crystal-blue;
+}
+.color-catskill-white{
+   color: $catskill-white;
+}

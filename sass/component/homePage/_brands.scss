@@ -1,0 +1,36 @@
+#brands{
+   @extend .mt-8;
+}
+.brands{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 15px;
+}
+.brands_content{
+   @extend .mb-5;
+   @extend .text-align-center;
+   h1{
+      @extend .font-size-4x;
+      @extend .font-weight-700;
+   }
+   h3{
+      @extend .font-size-3x;
+      @extend .mt-2;
+   }
+}
+.brands_item{
+   border:1px solid red;
+   // padding: $space-10x;
+   @extend .text-align-center;
+   @extend .align-items-center;
+   border: 3px solid #dbcdcd;
+   border-radius: $space-2x;
+   padding: 25%;
+   background: $white-color;
+   a{
+      img{
+         width: 100%;
+      }
+   }
+
+}

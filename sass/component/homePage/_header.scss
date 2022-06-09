@@ -1,0 +1,66 @@
+#header{
+   @extend .mt-4;
+}
+.header_main{
+   @extend .flex;
+
+
+}
+
+.hm_logo{
+   @extend .padding-margin-0;
+}
+
+.hm_search{
+   @extend .padding-margin-0;
+   input{
+      position: absolute;
+      width: 35%;
+      border-radius: 15px;
+      border: 2px solid #000;
+      padding: 5px 50px 5px 25px;
+   }
+   i{
+      position: relative;
+      top: 7px;
+      left: 70%;
+      right: 36px;   
+   }
+}
+
+.hp_nb_search_box{
+   @extend .flex;
+   @extend .align-items-center;
+form{
+   width: 90%;
+    float: right;
+    position: relative;
+    border-radius: $space-3x;
+    border: 2px solid #000;
+    padding: $space-x $space-10x $space-x $space-5x;
+    margin-left: $space-9x;
+      input{
+      width: 100%;
+      border:none;
+      }
+         i{
+         position: absolute;
+         right: $space-2x;
+         top: $space-x;
+         }
+   }
+}
+.hm_icon{
+   @extend .padding-margin-0;
+   @extend .flex;
+   @extend .justify-content-between;
+   div{
+      a{
+         @extend .flex;
+         i{
+            @extend .mr-1;
+         }
+      }
+   }
+}
+

@@ -1,0 +1,45 @@
+.width-2x{
+   width: $space-2x;
+}
+
+.height-2x{
+   height: $space-2x;
+}
+
+.circle-measure{
+@extend .height-2x;
+@extend .width-2x
+}
+
+.height-10x{
+   height: $space-10x;
+}
+.height-16x{
+   height: $space-8x *2;
+}
+
+.height-20x{
+   height: $space-20x;
+}
+.height-23x{
+   height: $space-23x;
+}
+.height-25x{
+   height: $space-25x;
+}
+.height-30x{
+   height: $space-30x;
+}
+.height-40x{
+   height: $space-40x;
+}
+.width-30x{
+   width: $space-30x;
+}
+
+.border-radius-2x{
+   border-radius:$space-2x;
+}
+.border-radius-5x{
+   border-radius:$space-5x;
+}

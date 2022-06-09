@@ -1,0 +1,17 @@
+#navbar{
+   @extend .mt-7;
+}
+.navbar{
+   @extend .flex;
+   @extend .justify-content-center;
+   ul{
+      @extend .flex;
+      @extend .justify-content-evenly;
+      width: 100%;
+      
+      li{
+         // padding: 3px;
+         // padding: 0 30px;
+      }
+   }
+}

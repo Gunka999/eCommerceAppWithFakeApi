@@ -1,0 +1,121 @@
+*{
+   box-sizing: border-box;
+   font-family: 'Jost', sans-serif;
+   font-family: 'Mulish', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Prompt', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+   background:#f4e4e4;
+}
+$container-width:1200px;
+.container{
+   max-width: $container-width;
+   margin: 0 auto;
+}
+
+.row{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+@for $i from 1 through 12 {
+   .col-#{$i} {
+     width: calc((100%/12)*#{$i}) !important;
+     padding: $space-2x;
+     box-sizing:border-box;
+
+   }
+}
+@media (max-width:576px){
+   .container{
+      width: 100%;
+   }
+   @for $i from 1 through 12 {
+      .col-xs-#{$i} {
+        width: calc((100%/12)*#{$i}) !important;
+        padding: $space-2x;
+        box-sizing:border-box;
+      }
+   }
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+   .container{
+      width: 100%;
+   }
+   @for $i from 1 through 12 {
+      .col-sm#{$i} {
+        width: calc((100%/12)*#{$i}) !important;
+        padding: $space-2x;
+        box-sizing:border-box;
+      }
+   }
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+   .container{
+      width: 100%;
+   }
+   @for $i from 1 through 12 {
+      .col-md#{$i} {
+        width: calc((100%/12)*#{$i}) !important;
+        padding: $space-2x;
+        box-sizing:border-box;
+      }
+   }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+   .container{
+      width: 100%;
+   }
+   @for $i from 1 through 12 {
+      .col-lg#{$i} {
+        width: calc((100%/12)*#{$i}) !important;
+        padding: $space-2x;
+        box-sizing:border-box;
+      }
+   }
+}
+
+
+.flex{
+   display: flex;
+}
+.display-inline-block{
+   display: inline-block;
+}
+.flex-direction-colum{
+   flex-direction: column;
+}
+
+.justify-content-fend{
+justify-content: flex-end;   
+}
+.justify-content-center{
+   justify-content: center;
+}
+.justify-content-end{
+   justify-content: end;
+}
+.justify-content-between{
+   justify-content: space-between;   
+}
+.justify-content-around{
+   justify-content: space-around;   
+}
+.justify-content-evenly{
+   justify-content: space-evenly;   
+}
+.align-items-center{
+  align-items: center; 
+}
+
+.text-align-center{
+   text-align: center;
+}
